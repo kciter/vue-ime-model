@@ -6,18 +6,6 @@
 
 ## Issue Reporting Guidelines
 
-- The issue list of this repo is **exclusively** for bug reports and feature requests. Non-conforming issues will be closed immediately.
-
-  - For simple beginner questions, you can get quick answers from [The Gitter chat room](https://gitter.im/vuejs/vue).
-
-  - For more complicated questions, you can use [the official forum](http://forum.vuejs.org/) or StackOverflow. Make sure to provide enough information when asking your questions - this makes it easier for others to help you!
-
-- Try to search for your issue, it may have already been answered or even fixed in the development branch.
-
-- Check if the issue is reproducible with the latest stable version of Vue. If you are using a pre-release, please indicate the specific version you are using.
-
-- It is **required** that you clearly describe the steps necessary to reproduce the issue you are running into. Issues with no clear repro steps will not be triaged. If an issue labeled "need repro" receives no further input from the issue author for more than 5 days, it will be closed.
-
 - It is recommended that you make a JSFiddle/JSBin/Codepen to demonstrate your issue. You could start with [this template](http://jsfiddle.net/5sH6A/) that already includes the latest version of Vue.
 
 - For bugs that involves build setups, you can create a reproduction repository with steps in the README.
@@ -45,12 +33,12 @@
   - Add appropriate test coverage if applicable.
 
 ### Work Step Example
-- Fork the repository from [kciter/v-ime-model](https://github.com/kciter/v-ime-model) !
+- Fork the repository from [kciter/vue-ime-model](https://github.com/kciter/vue-ime-model) !
 - Create your topic branch from `dev`: `git branch my-new-topic origin/dev`
 - Add codes and pass tests !
 - Commit your changes: `git commit -am 'Add some topic'`
 - Push to the branch: `git push origin my-new-topic`
-- Submit a pull request to `dev` branch of `kciter/v-ime-model` repository !
+- Submit a pull request to `dev` branch of `kciter/vue-ime-model` repository !
 
 ## Development Setup
 
@@ -68,9 +56,6 @@ After cloning the repo, run:
     # lint source codes
     $ npm run lint
 
-    # run unit tests in browser (firefox/safari/chrome)
-    $ npm run test:unit
-
     # build all dist files, including npm packages
     $ npm run build
 
@@ -79,5 +64,4 @@ After cloning the repo, run:
 
 There are some other scripts available in the `scripts` section of the `package.json` file.
 
-The default test script will do the following: lint with ESLint -> unit tests with coverage -> e2e tests. **Please make sure to have this pass successfully before submitting a PR.** Although the same tests will be run against your PR on the CI server, it is better to have it working locally beforehand.
-
+The default test script will do the following: lint with ESLint -> e2e tests. **Please make sure to have this pass successfully before submitting a PR.** Although the same tests will be run against your PR on the CI server, it is better to have it working locally beforehand.
