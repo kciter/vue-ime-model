@@ -1,5 +1,5 @@
 {
-  "name": "v-ime-model",
+  "name": "vue-ime-model",
   "description": "v-model directive for countries using IME.",
   "version": "1.0.0",
   "author": {
@@ -7,7 +7,7 @@
     "email": "kciter@naver.com"
   },
   "bugs": {
-    "url": "https://github.com/kciter/v-ime-model/issues"
+    "url": "https://github.com/kciter/vue-ime-model/issues"
   },
   "devDependencies": {
     "babel-core": "^6.9.0",
@@ -55,12 +55,12 @@
     "webpack-dev-server": "^1.14.1"
   },
   "files": [
-    "dist/v-ime-model.js",
-    "dist/v-ime-model.min.js",
-    "dist/v-ime-model.common.js",
+    "dist/vue-ime-model.js",
+    "dist/vue-ime-model.min.js",
+    "dist/vue-ime-model.common.js",
     "src"
   ],
-  "homepage": "https://github.com/kciter/v-ime-model#readme",
+  "homepage": "https://github.com/kciter/vue-ime-model#readme",
   "jsnext:main": "src/index.js",
   "keywords": [
     "plugin",
@@ -68,13 +68,13 @@
     "vuejs"
   ],
   "license": "MIT",
-  "main": "dist/v-ime-model.common.js",
+  "main": "dist/vue-ime-model.common.js",
   "engines": {
     "node": ">= 6.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kciter/v-ime-model.git"
+    "url": "git+https://github.com/kciter/vue-ime-model.git"
   },
   "scripts": {
     "build": "node config/build.js",
