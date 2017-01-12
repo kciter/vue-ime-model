@@ -1,5 +1,4 @@
 # v-ime-model
-[![Coverage Status](https://coveralls.io/repos/github/kciter/vue-ime-model/badge.svg?branch=dev)](https://coveralls.io/github/kciter/vue-ime-model?branch=dev)
 [![npm](https://img.shields.io/npm/v/vue-ime-model.svg)](https://www.npmjs.com/package/vuw-ime-model)
 [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
 
