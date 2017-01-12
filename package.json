@@ -83,10 +83,7 @@
     "clean": "rm -rf coverage && rm -rf dist/*.js* && rm ./*.log",
     "dev": "webpack-dev-server --quiet --config config/webpack.dev.conf.js --host 0.0.0.0",
     "lint": "eslint src test config",
-    "test": "npm run lint && npm run test:cover && npm run test:e2e -- --env phantomjs",
-    "test:cover": "karma start config/karma.cover.conf.js",
-    "test:coveralls": "karma start config/karma.coveralls.conf.js",
+    "test": "npm run lint && npm run test:e2e -- --env phantomjs",
     "test:e2e": "npm run build && node test/e2e/runner.js",
-    "test:unit": "karma start config/karma.unit.conf.js"
   }
 }

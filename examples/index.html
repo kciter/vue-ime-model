@@ -2,21 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>add example</title>
+    <title>vue-ime-model example</title>
     <script src="../../node_modules/vue/dist/vue.js"></script>
-    <script src="../../dist/v-ime-model.js"></script>
+    <script src="../../dist/vue-ime-model.js"></script>
   </head>
   <body>
     <div id="app">
-      <p>${ value }</p>
+      <p>{{message}}</p>
+      <input v-ime-model="message">
     </div>
+
     <script>
       var vm = new Vue({
-        delimiters: ['${', '}'],
-        data: { value: 0 },
-        mounted: function () {
-          this.value = this.$add(1, 1)
-        }
+        data: { message: "Hello, Vue.js!" }
       }).$mount('#app')
     </script>
   </body>

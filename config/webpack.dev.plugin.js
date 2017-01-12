@@ -11,7 +11,7 @@ const jasmineBootFiles = resolveJasmineFiles(jasmineBootDir, jasmineFiles.bootFi
 
 function JasmineWebpackPlugin (options = {}) {
   return new HtmlWebpackPlugin({
-    title: 'v-ime-model test runner',
+    title: 'vue-ime-model test runner',
     filename: options.filename || 'index.html',
     template: './config/webpack.runner.template.html',
     jasmineJsFiles: jasmineJsFiles.concat(jasmineBootFiles),
